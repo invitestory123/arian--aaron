@@ -67,6 +67,38 @@ body {
   opacity: 0 !important;
 }
 
+/* Position Quote and Welcome Message inside the parchment box with comfortable space after paragraph */
+#rec2487446043 .tn-elem[data-elem-id="1780748008617000003"] {
+  top: 795px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 90% !important;
+  max-width: 540px !important;
+  text-align: center !important;
+}
+
+#rec2487446043 .tn-elem[data-elem-id="1780748008617000003"] .tn-atom {
+  font-size: 34px !important;
+  line-height: 1.15 !important;
+  text-align: center !important;
+}
+
+#rec2487446043 .tn-elem[data-elem-id="1780748008617000005"] {
+  top: 875px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 90% !important;
+  max-width: 460px !important;
+  text-align: center !important;
+}
+
+#rec2487446043 .tn-elem[data-elem-id="1780748008617000005"] .tn-atom {
+  font-size: 18.5px !important;
+  line-height: 1.45 !important;
+  text-align: center !important;
+  color: #6a5140 !important;
+}
+
 /* Centering hero elements on smaller screens */
 @media screen and (max-width: 640px) {
   #rec2487446043 .tn-elem[data-elem-id="1763402147625"] {
@@ -94,6 +126,25 @@ body {
   #rec2487446043 .tn-elem[data-elem-id="176340390975774690"] {
     left: 50% !important;
     transform: translateX(-50%) !important;
+  }
+
+  /* Quote and Welcome Message inside parchment box on mobile */
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000003"] {
+    top: 790px !important;
+    width: 92% !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000003"] .tn-atom {
+    font-size: 26px !important;
+    line-height: 1.15 !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000005"] {
+    top: 865px !important;
+    width: 86% !important;
+    max-width: 330px !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000005"] .tn-atom {
+    font-size: 15px !important;
+    line-height: 1.45 !important;
   }
 }
 
@@ -225,19 +276,37 @@ body {
   overflow: visible !important;
 }
 
-/* ── Section 6: Dress Code Polish & Remove Gift Section ── */
-#rec2487446183 .t396__artboard {
-  min-height: 380px !important;
-  height: 380px !important;
+/* ── Section 6: Dress Code Polish & Fix Overlap with Next Section ── */
+#rec2487446183 {
+  position: relative !important;
   overflow: visible !important;
 }
 
-/* Center Dress Code Title and Content */
-#rec2487446183 .tn-elem[data-elem-id="1778524751695000002"] {
-  top: 100px !important;
+#rec2487446183 .t396__artboard {
+  height: 520px !important;
+  min-height: 520px !important;
+  overflow: visible !important;
 }
+
+/* Center Dress Code Title and Content inside the parchment paper box */
+#rec2487446183 .tn-elem[data-elem-id="1778524751695000002"] {
+  top: 155px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 90% !important;
+  max-width: 500px !important;
+  text-align: center !important;
+}
+
 #rec2487446183 .tn-elem[data-elem-id="1778524751695000001"] {
-  top: 170px !important;
+  top: 230px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 88% !important;
+  max-width: 440px !important;
+  text-align: center !important;
+  padding: 0 16px !important;
+  box-sizing: border-box !important;
 }
 
 /* Hide Gift Preference Title and Text */
@@ -252,26 +321,33 @@ body {
 
 @media screen and (max-width: 639px) {
   #rec2487446183 .t396__artboard {
-    min-height: 360px !important;
-    height: 360px !important;
+    height: 510px !important;
+    min-height: 510px !important;
   }
   #rec2487446183 .tn-elem[data-elem-id="1778524751695000002"] {
-    top: 85px !important;
+    top: 145px !important;
   }
   #rec2487446183 .tn-elem[data-elem-id="1778524751695000001"] {
-    top: 155px !important;
-    padding: 0 20px !important;
-    box-sizing: border-box !important;
+    top: 220px !important;
+    width: 90% !important;
+    max-width: 320px !important;
+    padding: 0 10px !important;
+    font-size: 16px !important;
+    line-height: 1.45 !important;
   }
 }
 
-/* ── Sections 7 & 8: Couple Photo & Closing Message ── */
+/* ── Sections 7 & 8: Couple Photo & Closing Message (No Overlap) ── */
 .couple-photo-section {
   background-color: #f9f0e0;
-  padding: 40px 20px 90px;
+  padding: 60px 20px 90px;
+  margin-top: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 5;
+  clear: both;
 }
 
 .couple-photo-card {
@@ -372,7 +448,8 @@ body {
 
 @media screen and (max-width: 639px) {
   .couple-photo-section {
-    padding: 30px 16px 70px;
+    padding: 50px 16px 70px;
+    margin-top: 10px;
   }
   .couple-photo-card {
     padding: 26px 18px 30px;
