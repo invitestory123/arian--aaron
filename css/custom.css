@@ -633,3 +633,24 @@ body {
     padding-left: 16px;
   }
 }
+
+
+.couple-photo-fade-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(to bottom, #f9f0e0 0%, rgba(249, 240, 224, 0.6) 40%, rgba(249, 240, 224, 0) 100%);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.closing-photo-floral,
+.couple-photo-floral {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  height: 0 !important;
+  width: 0 !important;
+}
