@@ -1,7 +1,7 @@
 /**
  * wedding-data.js — Customer-facing editable data layer for wax-seal-royale
  * Couple: Ariana & Aaron
- * Wedding Celebration: Saturday, January 16, 2027 | 7:00 PM – 9:00 PM
+ * Wedding Date: January 16, 2027
  * Venue: Kovilakom Resort, Muhamma, Kerala, India
  */
 
@@ -15,14 +15,15 @@ window.WEDDING_DATA = {
       spanish: "“Dos almas, un solo corazón”",
       english: "Two souls, one heart.",
     },
-    subtitle: "“Dos almas, un solo corazón”<br /><span style='font-family:\"Ovo\",serif; font-size:18px; font-weight:400; font-style:italic; color:#846f61; display:block; margin-top:8px;'>Two souls, one heart.</span>",
+    subtitle: "<div class='welcome-quote-script'>Dos almas, un solo corazón</div><div class='welcome-quote-trans'>Two souls, one heart.</div>",
   },
 
   wedding: {
     eventName: "A&A",
     dateLabel: "January 16, 2027",
-    dateISO: "2027-01-16T19:00:00+05:30",
-    invitationNote: "Dear Friends and Family,<br /><br />With hearts full of love and happiness, we invite you to join us as we celebrate our wedding. It would mean so much to have you with us as we begin this beautiful new chapter together.",
+    dateISO: "2027-01-16T15:30:00+05:30",
+    scheduleTitle: "Schedule of Events",
+    invitationNote: "<div class='welcome-message-heading'>Dear Friends and Family,</div><div class='welcome-message-body'>With hearts full of love and happiness, we invite you to join us as we celebrate the beginning of our forever. Your presence would make our special day even more meaningful.</div>",
   },
 
   celebration: {
@@ -31,6 +32,15 @@ window.WEDDING_DATA = {
     time: "7:00 PM – 9:00 PM",
     description: "An evening of love, laughter, celebration, and togetherness.",
   },
+
+  schedule: [
+    { title: "Guest Arrival", time: "3:30 PM" },
+    { title: "Wedding Ceremony", time: "4:30 PM" },
+    { title: "Cocktail Hour", time: "5:30 PM" },
+    { title: "Reception", time: "7:00 PM" },
+    { title: "Dinner", time: "7:30 PM" },
+    { title: "Party & Dance", time: "8:00 PM" },
+  ],
 
   venue: {
     name: "Kovilakom Resort",
