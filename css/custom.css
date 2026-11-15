@@ -1,0 +1,400 @@
+/* ==========================================================================
+   WAX SEAL ROYALE — CUSTOM STYLES FOR ARIANA & AARON (SECOND LINK)
+   Wedding Celebration — January 16, 2027 | Kovilakom Resort, Kerala
+   ========================================================================== */
+
+@font-face {
+  font-family: 'BeauRivage';
+  src: url('../external/media.invitestory.in/wax-seal-royale/fonts/BeauRivage-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ImperialScript';
+  src: url('../fonts/ImperialScript-Regul.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ── Typography & Global Polish ── */
+:root {
+  --royale-gold: #a67d2b;
+  --royale-gold-dark: #8c6428;
+  --royale-gold-light: #c9a96e;
+  --royale-parchment: #F9F0E0;
+  --royale-text: #6a5140;
+  --royale-text-muted: #846f61;
+  --royale-burgundy: #5a0f1b;
+}
+
+body {
+  background-color: var(--royale-parchment) !important;
+  font-feature-settings: "liga" 1, "kern" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Envelope Overlay Monogram ── */
+#weiOverlayMonogram {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 20px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgba(166, 125, 43, 0.85);
+  font-weight: 600;
+  pointer-events: none;
+}
+
+/* ── Hero Section Polish ── */
+#rec2487446043 .tn-elem[data-elem-id="1763402147625"] .tn-atom {
+  font-weight: 800 !important;
+  text-shadow: 0 1px 3px rgba(166, 125, 43, 0.35) !important;
+}
+
+/* Remove Arabic Calligraphy Image completely */
+#rec2487446043 .tn-elem[data-elem-id="1782312134224"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  opacity: 0 !important;
+}
+
+/* Centering hero elements on smaller screens */
+@media screen and (max-width: 640px) {
+  #rec2487446043 .tn-elem[data-elem-id="1763402147625"] {
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1763402147625"] .tn-atom {
+    font-size: 58px !important;
+    line-height: 1.15 !important;
+    text-align: center !important;
+    padding: 0 16px !important;
+    box-sizing: border-box !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="176340398328864790"] {
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="176340401720454780"] {
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="176340390975774690"] {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+}
+
+/* ── Section 4: Wedding Celebration in rec2487446103 ── */
+/* Hide old 5 timeline items, markers, and connectors */
+#rec2487446103 .tn-elem[data-elem-id="1763405268776"],
+#rec2487446103 .tn-elem[data-elem-id="1772803062504"],
+#rec2487446103 .tn-elem[data-elem-id="1772803288793000002"],
+#rec2487446103 .tn-elem[data-elem-id="1772803288793000003"],
+#rec2487446103 .tn-elem[data-elem-id="1782315605037000003"],
+#rec2487446103 .tn-elem[data-elem-id="1782315588274000002"],
+#rec2487446103 .tn-elem[data-elem-id="1778517684813000001"],
+#rec2487446103 .tn-elem[data-elem-id="1778517684813000002"],
+#rec2487446103 .tn-elem[data-elem-id="1772803619332000008"],
+#rec2487446103 .tn-elem[data-elem-id="1772803619332000009"],
+#rec2487446103 .tn-elem[data-elem-id="1772803124037"],
+#rec2487446103 .tn-elem[data-elem-id="1772803196067"],
+#rec2487446103 .tn-elem[data-elem-id="1772803288793000004"],
+#rec2487446103 .tn-elem[data-elem-id="1772803465944000007"],
+#rec2487446103 .tn-elem[data-elem-id="1778517704423000003"],
+#rec2487446103 .tn-elem[data-elem-id="1772803619332000010"],
+#rec2487446103 .tn-elem[data-elem-id="1773602024985"] {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Celebration Content Card */
+.wedding-celebration-wrapper {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 540px;
+  text-align: center;
+  z-index: 10;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+.celebration-date {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: #5a0f1b;
+  letter-spacing: 0.04em;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.celebration-time {
+  font-family: 'NewFonts', Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #846f61;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.celebration-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 0 auto 20px;
+  max-width: 240px;
+  color: #a67d2b;
+  font-size: 15px;
+  opacity: 0.85;
+}
+
+.celebration-divider::before,
+.celebration-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #c9a96e, transparent);
+}
+
+.celebration-note {
+  font-family: 'Ovo', Georgia, serif;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #6c513f;
+  font-style: italic;
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 639px) {
+  .wedding-celebration-wrapper {
+    top: 135px;
+    width: 94%;
+    padding: 10px 14px;
+  }
+  .celebration-date {
+    font-size: 21px;
+    margin-bottom: 8px;
+  }
+  .celebration-time {
+    font-size: 22px;
+    margin-bottom: 14px;
+  }
+  .celebration-divider {
+    margin-bottom: 14px;
+  }
+  .celebration-note {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+}
+
+/* ── Hide redundant old Islamic center block ── */
+#rec2487446153 {
+  display: none !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* ── Location Card Polish ── */
+#rec2487446163 {
+  overflow: visible !important;
+  position: relative !important;
+}
+#rec2487446163 .t396__artboard {
+  position: relative !important;
+  overflow: visible !important;
+}
+
+/* ── Section 6: Dress Code Polish & Remove Gift Section ── */
+#rec2487446183 .t396__artboard {
+  min-height: 380px !important;
+  height: 380px !important;
+  overflow: visible !important;
+}
+
+/* Center Dress Code Title and Content */
+#rec2487446183 .tn-elem[data-elem-id="1778524751695000002"] {
+  top: 100px !important;
+}
+#rec2487446183 .tn-elem[data-elem-id="1778524751695000001"] {
+  top: 170px !important;
+}
+
+/* Hide Gift Preference Title and Text */
+#rec2487446183 .tn-elem[data-elem-id="1763405219328"],
+#rec2487446183 .tn-elem[data-elem-id="1772813849329000001"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  opacity: 0 !important;
+}
+
+@media screen and (max-width: 639px) {
+  #rec2487446183 .t396__artboard {
+    min-height: 360px !important;
+    height: 360px !important;
+  }
+  #rec2487446183 .tn-elem[data-elem-id="1778524751695000002"] {
+    top: 85px !important;
+  }
+  #rec2487446183 .tn-elem[data-elem-id="1778524751695000001"] {
+    top: 155px !important;
+    padding: 0 20px !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* ── Sections 7 & 8: Couple Photo & Closing Message ── */
+.couple-photo-section {
+  background-color: #f9f0e0;
+  padding: 40px 20px 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.couple-photo-card {
+  max-width: 480px;
+  width: 100%;
+  background: #fdf8ee;
+  border: 1px solid #d9c9a8;
+  border-radius: 24px;
+  padding: 34px 26px 38px;
+  text-align: center;
+  box-shadow: 0 12px 36px rgba(166, 125, 43, 0.14);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.couple-photo-title {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 20px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #a67d2b;
+  margin-bottom: 22px;
+}
+
+.couple-photo-frame {
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 2px solid #c9a96e;
+  box-shadow: 0 10px 28px rgba(90, 15, 27, 0.18);
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.couple-photo-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.couple-photo-quote {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 19px;
+  color: #5a0f1b;
+  margin-top: 24px;
+  letter-spacing: 0.05em;
+  line-height: 1.35;
+}
+
+.couple-photo-translation {
+  font-family: 'Ovo', Georgia, serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #846f61;
+  margin-top: 6px;
+  letter-spacing: 0.03em;
+}
+
+.closing-message-wrap {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(166, 125, 43, 0.35);
+}
+
+.closing-divider {
+  color: #a67d2b;
+  font-size: 14px;
+  margin-bottom: 16px;
+  opacity: 0.85;
+}
+
+.closing-text {
+  font-family: 'Ovo', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #6a5140;
+  font-style: italic;
+  max-width: 390px;
+  margin: 0 auto 18px;
+}
+
+.closing-signature-note {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  color: #a67d2b;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.closing-signature {
+  font-family: 'BeauRivage', 'ImperialScript', cursive, Georgia, serif;
+  font-size: 42px;
+  color: #5a0f1b;
+  line-height: 1.25;
+}
+
+@media screen and (max-width: 639px) {
+  .couple-photo-section {
+    padding: 30px 16px 70px;
+  }
+  .couple-photo-card {
+    padding: 26px 18px 30px;
+    border-radius: 20px;
+  }
+  .couple-photo-title {
+    font-size: 17px;
+    margin-bottom: 18px;
+  }
+  .couple-photo-frame {
+    max-width: 300px;
+  }
+  .couple-photo-quote {
+    font-size: 17px;
+  }
+  .couple-photo-translation {
+    font-size: 14.5px;
+  }
+  .closing-text {
+    font-size: 16px;
+  }
+  .closing-signature {
+    font-size: 34px;
+  }
+}
