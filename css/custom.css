@@ -210,6 +210,37 @@ body {
 }
 
 /* ── Section 4: Wedding Celebration in rec2487446103 ── */
+
+/* Section 4: Title Centering & Typography */
+#rec2487446103 .tn-elem[data-elem-id="1763405219328"] {
+  display: block !important;
+  top: 45px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 90% !important;
+  max-width: 500px !important;
+  text-align: center !important;
+  z-index: 5 !important;
+}
+
+#rec2487446103 .tn-elem[data-elem-id="1763405219328"] .tn-atom {
+  font-family: 'Beau Rivage', 'Imperial Script', cursive !important;
+  font-size: 44px !important;
+  color: #a67d2b !important;
+  text-align: center !important;
+  line-height: 1.2 !important;
+  font-weight: 400 !important;
+}
+
+@media screen and (max-width: 639px) {
+  #rec2487446103 .tn-elem[data-elem-id="1763405219328"] {
+    top: 40px !important;
+  }
+  #rec2487446103 .tn-elem[data-elem-id="1763405219328"] .tn-atom {
+    font-size: 38px !important;
+  }
+}
+
 /* Hide old 5 timeline items, markers, and connectors */
 #rec2487446103 .tn-elem[data-elem-id="1763405268776"],
 #rec2487446103 .tn-elem[data-elem-id="1772803062504"],
@@ -483,156 +514,6 @@ body {
 }
 
 
-/* Hide old static schedule items in rec2487446103 */
-#rec2487446103 .tn-elem[data-elem-id="1763405268776"],
-#rec2487446103 .tn-elem[data-elem-id="1772803062504"],
-#rec2487446103 .tn-elem[data-elem-id="1772803288793000002"],
-#rec2487446103 .tn-elem[data-elem-id="1772803288793000003"],
-#rec2487446103 .tn-elem[data-elem-id="1782315605037000003"],
-#rec2487446103 .tn-elem[data-elem-id="1782315588274000002"],
-#rec2487446103 .tn-elem[data-elem-id="1778517684813000001"],
-#rec2487446103 .tn-elem[data-elem-id="1778517684813000002"],
-#rec2487446103 .tn-elem[data-elem-id="1772803619332000008"],
-#rec2487446103 .tn-elem[data-elem-id="1772803619332000009"],
-#rec2487446103 .tn-elem[data-elem-id="1772803124037"],
-#rec2487446103 .tn-elem[data-elem-id="1772803196067"],
-#rec2487446103 .tn-elem[data-elem-id="1772803288793000004"],
-#rec2487446103 .tn-elem[data-elem-id="1772803465944000007"],
-#rec2487446103 .tn-elem[data-elem-id="1778517704423000003"],
-#rec2487446103 .tn-elem[data-elem-id="1772803619332000010"] {
-  display: none !important;
-  visibility: hidden !important;
-}
-
-/* Floating Flower on Timeline (Constrained strictly to line top and bottom ends) */
-#rec2487446103 .tn-elem[data-elem-id="1773602024985"] {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  z-index: 25 !important;
-  pointer-events: none !important;
-  position: absolute !important;
-  left: 50% !important;
-  margin-left: 0 !important;
-  transform: translateX(-50%) !important;
-  width: 50px !important;
-  height: 50px !important;
-}
-
-#rec2487446103 .tn-elem[data-elem-id="1773602024985"] .tn-atom {
-  width: 100% !important;
-  height: 100% !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-}
-
-#rec2487446103 .tn-elem[data-elem-id="1773602024985"] .tn-atom__img {
-  width: 100% !important;
-  height: auto !important;
-  display: block !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-}
-
-#rec2487446103 .t396__artboard {
-  position: relative !important;
-  overflow: visible !important;
-}
-
-/* Dynamic Schedule Container (Increased Size of Events) */
-.wedding-schedule-wrapper {
-  position: absolute;
-  top: 115px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
-  max-width: 500px;
-  z-index: 10;
-  pointer-events: auto;
-}
-
-.wedding-timeline-list {
-  display: flex;
-  flex-direction: column;
-  gap: 22px;
-  position: relative;
-}
-
-.wedding-timeline-list::before {
-  content: '';
-  position: absolute;
-  top: 15px;
-  bottom: 15px;
-  left: 50%;
-  width: 2px;
-  background: #8c7666;
-  opacity: 0.65;
-  transform: translateX(-50%);
-}
-
-.wedding-timeline-item {
-  display: flex;
-  align-items: center;
-  position: relative;
-  width: 100%;
-}
-
-.wedding-timeline-time {
-  flex: 1;
-  text-align: right;
-  padding-right: 20px;
-  font-family: 'NewFonts', Arial, sans-serif;
-  font-weight: 600;
-  font-size: 26px;
-  color: #846f61;
-  letter-spacing: -0.5px;
-  white-space: nowrap;
-}
-
-.wedding-timeline-marker {
-  width: 10px;
-  height: 10px;
-  background-color: #8c7666;
-  transform: rotate(45deg);
-  flex-shrink: 0;
-  box-shadow: 0 0 0 3.5px #f9f0e0;
-}
-
-.wedding-timeline-title {
-  flex: 1;
-  text-align: left;
-  padding-left: 20px;
-  font-family: 'ImperialScript', 'NewFonts', cursive;
-  font-size: 32px;
-  font-weight: 300;
-  color: #6c513f;
-  line-height: 1.15;
-}
-
-@media screen and (max-width: 639px) {
-  .wedding-schedule-wrapper {
-    top: 115px;
-    width: 95%;
-  }
-  .wedding-timeline-list {
-    gap: 20px;
-  }
-  .wedding-timeline-list::before {
-    top: 15px;
-    bottom: 15px;
-  }
-  .wedding-timeline-time {
-    font-size: 22px;
-    padding-right: 16px;
-  }
-  .wedding-timeline-title {
-    font-size: 27px;
-    padding-left: 16px;
-  }
-}
 
 
 .couple-photo-fade-top {

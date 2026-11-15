@@ -33,15 +33,6 @@ window.WEDDING_DATA = {
     description: "An evening of love, laughter, celebration, and togetherness.",
   },
 
-  schedule: [
-    { title: "Guest Arrival", time: "3:30 PM" },
-    { title: "Wedding Ceremony", time: "4:30 PM" },
-    { title: "Cocktail Hour", time: "5:30 PM" },
-    { title: "Reception", time: "7:00 PM" },
-    { title: "Dinner", time: "7:30 PM" },
-    { title: "Party & Dance", time: "8:00 PM" },
-  ],
-
   venue: {
     name: "Kovilakom Resort",
     address: "Muhamma, Kerala, India",
