@@ -237,14 +237,16 @@ body {
   object-fit: fill !important;
 }
 
-/* Section 4: Title Centering & Typography */
+/* Section 4: Title Centering & Typography - Flanked symmetrically by decorative curls */
 #rec2487446103 .tn-elem[data-elem-id="1763405219328"] {
-  display: block !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
   top: 36px !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
-  width: 90% !important;
-  max-width: 500px !important;
+  width: 95% !important;
+  max-width: 600px !important;
   text-align: center !important;
   z-index: 20 !important;
   opacity: 1 !important;
@@ -252,12 +254,47 @@ body {
 }
 
 #rec2487446103 .tn-elem[data-elem-id="1763405219328"] .tn-atom {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 12px !important;
+  width: auto !important;
+  text-align: center !important;
+  white-space: nowrap !important;
   font-family: 'BeauRivage', 'ImperialScript', cursive !important;
   font-size: 46px !important;
   line-height: 1.15 !important;
   color: #a67d2b !important;
   text-shadow: 0 1px 2px rgba(166, 125, 43, 0.2) !important;
   opacity: 1 !important;
+}
+
+/* Symmetrical golden flourishes flanking the heading */
+#rec2487446103 .tn-elem[data-elem-id="1763405219328"] .tn-atom::before {
+  content: '' !important;
+  display: inline-block !important;
+  width: 52px !important;
+  height: 27px !important;
+  background: url('../images/cdn/left-element_1.png') no-repeat center center / contain !important;
+  flex-shrink: 0 !important;
+}
+
+#rec2487446103 .tn-elem[data-elem-id="1763405219328"] .tn-atom::after {
+  content: '' !important;
+  display: inline-block !important;
+  width: 52px !important;
+  height: 27px !important;
+  background: url('../images/cdn/right-element_1.png') no-repeat center center / contain !important;
+  flex-shrink: 0 !important;
+}
+
+/* Hide legacy detached flourish elements in Tilda zero block */
+#rec2487446103 .tn-elem[data-elem-id="1780148092188000001"],
+#rec2487446103 .tn-elem[data-elem-id="1780148092188000002"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
 
 @media screen and (max-width: 639px) {
@@ -275,9 +312,28 @@ body {
   }
   #rec2487446103 .tn-elem[data-elem-id="1763405219328"] {
     top: 32px !important;
+    width: 98% !important;
   }
   #rec2487446103 .tn-elem[data-elem-id="1763405219328"] .tn-atom {
-    font-size: 38px !important;
+    font-size: 36px !important;
+    gap: 8px !important;
+  }
+  #rec2487446103 .tn-elem[data-elem-id="1763405219328"] .tn-atom::before,
+  #rec2487446103 .tn-elem[data-elem-id="1763405219328"] .tn-atom::after {
+    width: 40px !important;
+    height: 21px !important;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #rec2487446103 .tn-elem[data-elem-id="1763405219328"] .tn-atom {
+    font-size: 31px !important;
+    gap: 6px !important;
+  }
+  #rec2487446103 .tn-elem[data-elem-id="1763405219328"] .tn-atom::before,
+  #rec2487446103 .tn-elem[data-elem-id="1763405219328"] .tn-atom::after {
+    width: 34px !important;
+    height: 18px !important;
   }
 }
 
