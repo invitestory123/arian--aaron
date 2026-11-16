@@ -21,9 +21,9 @@ window.WEDDING_DATA = {
   wedding: {
     eventName: "A&A",
     dateLabel: "January 16, 2027",
-    dateISO: "2027-01-16T15:30:00+05:30",
-    scheduleTitle: "Schedule of Events",
-    invitationNote: "<div class='welcome-message-heading'>Dear Friends and Family,</div><div class='welcome-message-body'>With hearts full of love and happiness, we invite you to join us as we celebrate the beginning of our forever. Your presence would make our special day even more meaningful.</div>",
+    dateISO: "2027-01-16T19:00:00+05:30",
+    scheduleTitle: "Wedding Celebration",
+    invitationNote: "<div class='welcome-message-heading'>Dear Friends and Family,</div><div class='welcome-message-body'>With hearts full of love and happiness, we invite you to join us as we celebrate our wedding. It would mean so much to have you with us as we begin this beautiful new chapter together.</div>",
   },
 
   celebration: {

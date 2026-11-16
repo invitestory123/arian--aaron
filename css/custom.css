@@ -211,89 +211,151 @@ body {
 
 /* ── Section 4: Wedding Celebration in rec2487446103 ── */
 
+/* Section 4: Artboard & Parchment Paper Sizing - Proportioned cleanly without excess blank space */
+#rec2487446103 .t396__artboard {
+  height: 330px !important;
+  min-height: 330px !important;
+  overflow: visible !important;
+  position: relative !important;
+}
+
+#rec2487446103 .tn-elem[data-elem-id="1779527691672"] {
+  top: -20px !important;
+  height: 240px !important;
+}
+
+#rec2487446103 .tn-elem[data-elem-id="1782315340571000001"] {
+  top: 155px !important;
+  height: 165px !important;
+}
+
+#rec2487446103 .tn-elem[data-elem-id="1779527691672"] .tn-atom,
+#rec2487446103 .tn-elem[data-elem-id="1779527691672"] .tn-atom__img,
+#rec2487446103 .tn-elem[data-elem-id="1782315340571000001"] .tn-atom,
+#rec2487446103 .tn-elem[data-elem-id="1782315340571000001"] .tn-atom__img {
+  height: 100% !important;
+  object-fit: fill !important;
+}
+
 /* Section 4: Title Centering & Typography */
 #rec2487446103 .tn-elem[data-elem-id="1763405219328"] {
   display: block !important;
-  top: 45px !important;
+  top: 36px !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
   width: 90% !important;
   max-width: 500px !important;
   text-align: center !important;
-  z-index: 5 !important;
+  z-index: 20 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 #rec2487446103 .tn-elem[data-elem-id="1763405219328"] .tn-atom {
-  font-family: 'Beau Rivage', 'Imperial Script', cursive !important;
-  font-size: 44px !important;
+  font-family: 'BeauRivage', 'ImperialScript', cursive !important;
+  font-size: 46px !important;
+  line-height: 1.15 !important;
   color: #a67d2b !important;
-  text-align: center !important;
-  line-height: 1.2 !important;
-  font-weight: 400 !important;
+  text-shadow: 0 1px 2px rgba(166, 125, 43, 0.2) !important;
+  opacity: 1 !important;
 }
 
 @media screen and (max-width: 639px) {
+  #rec2487446103 .t396__artboard {
+    height: 315px !important;
+    min-height: 315px !important;
+  }
+  #rec2487446103 .tn-elem[data-elem-id="1779527691672"] {
+    top: -20px !important;
+    height: 230px !important;
+  }
+  #rec2487446103 .tn-elem[data-elem-id="1782315340571000001"] {
+    top: 150px !important;
+    height: 155px !important;
+  }
   #rec2487446103 .tn-elem[data-elem-id="1763405219328"] {
-    top: 40px !important;
+    top: 32px !important;
   }
   #rec2487446103 .tn-elem[data-elem-id="1763405219328"] .tn-atom {
     font-size: 38px !important;
   }
 }
 
-/* Hide old 5 timeline items, markers, and connectors */
+/* Hide legacy timeline elements completely */
 #rec2487446103 .tn-elem[data-elem-id="1763405268776"],
 #rec2487446103 .tn-elem[data-elem-id="1772803062504"],
 #rec2487446103 .tn-elem[data-elem-id="1772803288793000002"],
-#rec2487446103 .tn-elem[data-elem-id="1772803288793000003"],
 #rec2487446103 .tn-elem[data-elem-id="1782315605037000003"],
+#rec2487446103 .tn-elem[data-elem-id="1772803288793000003"],
 #rec2487446103 .tn-elem[data-elem-id="1782315588274000002"],
-#rec2487446103 .tn-elem[data-elem-id="1778517684813000001"],
-#rec2487446103 .tn-elem[data-elem-id="1778517684813000002"],
 #rec2487446103 .tn-elem[data-elem-id="1772803619332000008"],
 #rec2487446103 .tn-elem[data-elem-id="1772803619332000009"],
+#rec2487446103 .tn-elem[data-elem-id="1778517684813000001"],
+#rec2487446103 .tn-elem[data-elem-id="1778517684813000002"],
 #rec2487446103 .tn-elem[data-elem-id="1772803124037"],
 #rec2487446103 .tn-elem[data-elem-id="1772803196067"],
 #rec2487446103 .tn-elem[data-elem-id="1772803288793000004"],
 #rec2487446103 .tn-elem[data-elem-id="1772803465944000007"],
-#rec2487446103 .tn-elem[data-elem-id="1778517704423000003"],
 #rec2487446103 .tn-elem[data-elem-id="1772803619332000010"],
-#rec2487446103 .tn-elem[data-elem-id="1773602024985"] {
+#rec2487446103 .tn-elem[data-elem-id="1778517704423000003"],
+#rec2487446103 .tn-elem[data-elem-id="1773602024985"],
+#rec2487446103 .tn-elem[data-elem-id="1782312310182000001"],
+#rec2487446103 .tn-elem[data-elem-id="1782460410648000001"],
+#rec2487446103 .tn-elem[data-elem-id="1782460410648000002"],
+#rec2487446103 .tn-elem[data-elem-id="1782460410648000003"],
+#rec2487446103 .tn-elem[data-elem-id="1782460410649000004"],
+#rec2487446103 .tn-elem[data-elem-id="1782460410649000005"],
+#rec2487446103 .tn-elem[data-elem-id="1782460410649000006"],
+#rec2487446103 .tn-elem[data-elem-id="1772804808869"],
+#rec2487446103 .tn-elem[data-elem-id="1710614957366"],
+#rec2487446103 .tn-elem[data-elem-id="1782460739527000002"],
+#rec2487446103 .tn-elem[data-elem-id="1779531257276000001"],
+#rec2487446103 .tn-elem[data-elem-id="1779529136519000001"],
+#rec2487446103 .tn-elem[data-elem-id="1772813849329000001"],
+#rec2487446103 .tn-elem[data-elem-id="1780167075599000003"],
+#rec2487446103 .tn-elem[data-elem-id="1780167004386000002"],
+#rec2487446103 .t396__artboard > .tn-elem:not([data-elem-id="1779527691672"]):not([data-elem-id="1782315340571000001"]):not([data-elem-id="1763405219328"]):not([data-elem-id="1780148092188000001"]):not([data-elem-id="1780148092188000002"]):not(.wedding-celebration-wrapper) {
   display: none !important;
   visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
 
 /* Celebration Content Card */
 .wedding-celebration-wrapper {
-  position: absolute;
-  top: 150px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
-  max-width: 540px;
-  text-align: center;
-  z-index: 10;
-  padding: 15px 20px;
-  box-sizing: border-box;
+  position: absolute !important;
+  top: 105px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 90% !important;
+  max-width: 520px !important;
+  text-align: center !important;
+  z-index: 25 !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  padding: 8px 16px !important;
+  box-sizing: border-box !important;
+  pointer-events: auto !important;
 }
 
 .celebration-date {
   font-family: 'Cinzel', Georgia, serif;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
-  color: #5a0f1b;
+  color: #5a0f1b !important;
   letter-spacing: 0.04em;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   line-height: 1.3;
 }
 
 .celebration-time {
   font-family: 'NewFonts', Arial, sans-serif;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 600;
-  color: #846f61;
+  color: #846f61 !important;
   letter-spacing: 0.02em;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   line-height: 1.3;
 }
 
@@ -302,9 +364,9 @@ body {
   align-items: center;
   justify-content: center;
   gap: 14px;
-  margin: 0 auto 20px;
+  margin: 0 auto 12px;
   max-width: 240px;
-  color: #a67d2b;
+  color: #a67d2b !important;
   font-size: 15px;
   opacity: 0.85;
 }
@@ -314,14 +376,14 @@ body {
   content: '';
   flex: 1;
   height: 1px;
-  background: linear-gradient(to right, transparent, #c9a96e, transparent);
+  background: linear-gradient(90deg, transparent, #c8a86b, transparent);
 }
 
 .celebration-note {
   font-family: 'Ovo', Georgia, serif;
-  font-size: 20px;
-  line-height: 1.6;
-  color: #6c513f;
+  font-size: 17.5px;
+  line-height: 1.5;
+  color: #6c513f !important;
   font-style: italic;
   max-width: 440px;
   margin: 0 auto;
@@ -329,69 +391,70 @@ body {
 
 @media screen and (max-width: 639px) {
   .wedding-celebration-wrapper {
-    top: 135px;
-    width: 94%;
-    padding: 10px 14px;
+    top: 96px !important;
+    width: 94% !important;
+    padding: 6px 12px !important;
   }
   .celebration-date {
-    font-size: 21px;
-    margin-bottom: 8px;
+    font-size: 20px !important;
+    margin-bottom: 5px !important;
   }
   .celebration-time {
-    font-size: 22px;
-    margin-bottom: 14px;
+    font-size: 21px !important;
+    margin-bottom: 10px !important;
   }
   .celebration-divider {
-    margin-bottom: 14px;
+    margin-bottom: 10px !important;
   }
   .celebration-note {
-    font-size: 17px;
-    line-height: 1.5;
+    font-size: 16px !important;
+    line-height: 1.45 !important;
   }
 }
 
-/* ── Hide redundant old Islamic center block ── */
-#rec2487446153 {
-  display: none !important;
-  height: 0 !important;
-  padding: 0 !important;
-  margin: 0 !important;
-}
 
-/* ── Location Card Polish ── */
-#rec2487446163 {
-  overflow: visible !important;
-  position: relative !important;
-}
-#rec2487446163 .t396__artboard {
-  position: relative !important;
-  overflow: visible !important;
-}
-
-/* ── Section 6: Dress Code Polish & Fix Overlap with Next Section ── */
+/* ── Section 6: Dress Code in rec2487446183 ── */
 #rec2487446183 {
   position: relative !important;
   overflow: visible !important;
 }
 
 #rec2487446183 .t396__artboard {
-  height: 520px !important;
-  min-height: 520px !important;
+  height: 400px !important;
+  min-height: 400px !important;
   overflow: visible !important;
+}
+
+/* Parchment paper background trimmed to neatly fit Dress Code without excess void */
+#rec2487446183 .tn-elem[data-elem-id="1779529136519000001"] {
+  top: 15px !important;
+  height: 370px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 1 !important;
+}
+
+#rec2487446183 .tn-elem[data-elem-id="1779529136519000001"] .tn-atom,
+#rec2487446183 .tn-elem[data-elem-id="1779529136519000001"] .tn-atom__img {
+  height: 100% !important;
+  object-fit: fill !important;
 }
 
 /* Center Dress Code Title and Content inside the parchment paper box */
 #rec2487446183 .tn-elem[data-elem-id="1778524751695000002"] {
-  top: 155px !important;
+  top: 90px !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
   width: 90% !important;
   max-width: 500px !important;
   text-align: center !important;
+  z-index: 10 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 #rec2487446183 .tn-elem[data-elem-id="1778524751695000001"] {
-  top: 230px !important;
+  top: 160px !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
   width: 88% !important;
@@ -399,6 +462,9 @@ body {
   text-align: center !important;
   padding: 0 16px !important;
   box-sizing: border-box !important;
+  z-index: 10 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 /* Hide Gift Preference Title and Text */
@@ -411,127 +477,174 @@ body {
   opacity: 0 !important;
 }
 
+/* Move bottom flower decor safely down and non-blocking */
+#rec2487446183 .tn-elem[data-elem-id="1780167004386000002"] {
+  top: 270px !important;
+  z-index: 2 !important;
+  pointer-events: none !important;
+}
+
 @media screen and (max-width: 639px) {
   #rec2487446183 .t396__artboard {
-    height: 510px !important;
-    min-height: 510px !important;
+    height: 380px !important;
+    min-height: 380px !important;
+  }
+  #rec2487446183 .tn-elem[data-elem-id="1779529136519000001"] {
+    top: 15px !important;
+    height: 350px !important;
   }
   #rec2487446183 .tn-elem[data-elem-id="1778524751695000002"] {
-    top: 145px !important;
+    top: 85px !important;
   }
   #rec2487446183 .tn-elem[data-elem-id="1778524751695000001"] {
-    top: 220px !important;
+    top: 150px !important;
     width: 90% !important;
-    max-width: 320px !important;
-    padding: 0 10px !important;
+    max-width: 380px !important;
+  }
+  #rec2487446183 .tn-elem[data-elem-id="1780167004386000002"] {
+    top: 260px !important;
+  }
+}
+
+
+
+
+
+/* ── Universal Visibility Safeguard (Prevent Tilda animation glitches) ── */
+#rec-couple-photo,
+#rec-couple-photo.r_hidden,
+.couple-photo-section,
+.wedding-celebration-wrapper,
+#rec2487446043 .tn-elem[data-elem-id="1780748008617000005"],
+#rec2487446043 .tn-elem[data-elem-id="1780748008617000003"],
+#rec2487446043 .tn-elem[data-elem-id="1763402147625"],
+#rec2487446043 .tn-elem[data-elem-id="176340398328864790"],
+#rec2487446043 .tn-elem[data-elem-id="176340401720454780"],
+#rec2487446043 .tn-elem[data-elem-id="176340390975774690"],
+#rec2487446183 .tn-elem[data-elem-id="1778524751695000002"],
+#rec2487446183 .tn-elem[data-elem-id="1778524751695000001"] {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+
+/* ── Section 7 & 8: Couple Photo & Closing Message ── */
+.couple-photo-section,
+.closing-photo-section {
+  background-color: #f9f0e0 !important;
+  padding: 40px 0 60px !important;
+  position: relative !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+#rec-couple-photo.r_hidden {
+  opacity: 1 !important;
+}
+
+.closing-header-wrap,
+.closing-photo-header {
+  text-align: center !important;
+  padding: 0 16px !important;
+  margin-bottom: 24px !important;
+  width: 100% !important;
+  max-width: 500px !important;
+  box-sizing: border-box !important;
+}
+
+.closing-message-subtitle {
+  font-family: 'Ovo', Georgia, serif !important;
+  font-size: 18px !important;
+  line-height: 1.5 !important;
+  color: #6a5140 !important;
+  font-style: italic !important;
+  margin: 0 auto 10px !important;
+  text-align: center !important;
+  max-width: 440px !important;
+}
+
+.closing-script-title,
+.closing-photo-title {
+  font-family: 'BeauRivage', 'ImperialScript', 'Beau Rivage', cursive !important;
+  font-size: 48px !important;
+  font-weight: 400 !important;
+  color: #a67d2b !important;
+  line-height: 1.2 !important;
+  margin: 0 0 8px 0 !important;
+  text-align: center !important;
+  text-shadow: 0 1px 2px rgba(166, 125, 43, 0.15) !important;
+  letter-spacing: 0.02em !important;
+}
+
+.closing-names-title,
+.closing-photo-names {
+  font-family: 'Cinzel', Georgia, serif !important;
+  font-size: 24px !important;
+  line-height: 1.3 !important;
+  color: #a67d2b !important;
+  letter-spacing: 0.14em !important;
+  text-transform: uppercase !important;
+  font-weight: 500 !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+
+.couple-photo-full-wrap,
+.closing-photo-stage {
+  width: 100% !important;
+  max-width: 440px !important;
+  margin: 0 auto !important;
+  position: relative !important;
+  line-height: 0 !important;
+  display: block !important;
+  border-radius: 4px !important;
+  overflow: hidden !important;
+}
+
+.couple-photo-full-img,
+.closing-photo-img {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  object-fit: cover !important;
+}
+
+.couple-photo-fade-top,
+.closing-photo-fade {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 60px !important;
+  background: linear-gradient(to bottom, #f9f0e0 0%, rgba(249, 240, 224, 0) 100%) !important;
+  pointer-events: none !important;
+  z-index: 2 !important;
+}
+
+@media screen and (max-width: 639px) {
+  .couple-photo-section,
+  .closing-photo-section {
+    padding: 30px 0 50px !important;
+  }
+  .closing-message-subtitle {
     font-size: 16px !important;
-    line-height: 1.45 !important;
+    margin-bottom: 8px !important;
+    padding: 0 12px !important;
   }
-}
-
-/* ── Sections 7 & 8: Couple Photo & Closing Message (Styled like Image 1) ── */
-.couple-photo-section {
-  background-color: #f9f0e0;
-  padding: 48px 0 0;
-  margin-top: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  z-index: 5;
-  clear: both;
-  overflow: hidden;
-}
-
-.closing-header-wrap {
-  text-align: center;
-  padding: 0 20px;
-  margin-bottom: 24px;
-}
-
-.closing-script-title {
-  font-family: 'BeauRivage', 'ImperialScript', cursive;
-  font-size: 54px;
-  line-height: 1.15;
-  color: #a67d2b;
-  margin-bottom: 8px;
-  letter-spacing: 0.02em;
-}
-
-.closing-names-title {
-  font-family: 'Cinzel', Georgia, serif;
-  font-size: 26px;
-  line-height: 1.3;
-  color: #a67d2b;
-  letter-spacing: 0.12em;
-  text-transform: capitalize;
-  font-weight: 400;
-}
-
-.couple-photo-full-wrap {
-  width: 100%;
-  max-width: 580px;
-  margin: 0 auto;
-  position: relative;
-  display: block;
-  line-height: 0;
-}
-
-.couple-photo-full-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-}
-
-@media screen and (max-width: 640px) {
-  .couple-photo-section {
-    padding-top: 36px;
+  .closing-script-title,
+  .closing-photo-title {
+    font-size: 40px !important;
+    margin-bottom: 6px !important;
   }
-  .closing-script-title {
-    font-size: 44px;
-    margin-bottom: 6px;
+  .closing-names-title,
+  .closing-photo-names {
+    font-size: 20px !important;
+    letter-spacing: 0.12em !important;
   }
-  .closing-names-title {
-    font-size: 22px;
-    letter-spacing: 0.1em;
-  }
-  .closing-header-wrap {
-    margin-bottom: 18px;
-  }
-  .couple-photo-full-wrap {
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .closing-script-title {
-    font-size: 40px;
-  }
-  .closing-names-title {
-    font-size: 20px;
-  }
-}
-
-
-
-
-.couple-photo-fade-top {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 60px;
-  background: linear-gradient(to bottom, #f9f0e0 0%, rgba(249, 240, 224, 0.6) 40%, rgba(249, 240, 224, 0) 100%);
-  pointer-events: none;
-  z-index: 2;
-}
-
-.closing-photo-floral,
-.couple-photo-floral {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-  height: 0 !important;
-  width: 0 !important;
 }
