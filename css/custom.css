@@ -555,9 +555,9 @@ img[data-original*="ChatGPT_Image_May_25"] {
   opacity: 0 !important;
 }
 
-/* Move bottom flower decor safely down and non-blocking */
+/* Move bottom flower decor safely up so it frames the section without covering the words */
 #rec2487446183 .tn-elem[data-elem-id="1780167004386000002"] {
-  top: 270px !important;
+  top: 170px !important;
   z-index: 2 !important;
   pointer-events: none !important;
 }
@@ -580,7 +580,7 @@ img[data-original*="ChatGPT_Image_May_25"] {
     max-width: 380px !important;
   }
   #rec2487446183 .tn-elem[data-elem-id="1780167004386000002"] {
-    top: 260px !important;
+    top: 160px !important;
   }
 }
 
